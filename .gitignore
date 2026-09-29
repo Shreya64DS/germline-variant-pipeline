@@ -1,3 +1,4 @@
-data/
-resources/
-results/
+/data/
+/resources/
+/results/
+logs_align.log

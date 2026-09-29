@@ -24,3 +24,5 @@ benchmarked against the GIAB truth set.
 #Status
 
 In progress. Documentation is written as each phase is completed.
+
+Total reads: 20,203,002 read pairs (2 x 101 bp)
