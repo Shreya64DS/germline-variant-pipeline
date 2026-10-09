@@ -104,9 +104,3 @@ One lane, chr20 only, hard filters rather than VQSR. Annotation used the Ensembl
 API rather than a local cache, and frequencies were taken as the maximum across alleles
 at a site, so per-variant frequencies should be re-checked before being relied on. No
 CADD, REVEL or gene constraint data.
-
-## What I'd change
-
-Add DP and GQ thresholds to the filtering step. Loosen SOR for capture data. Add the
-second lane and re-benchmark. Use a local VEP cache. Port the whole thing to Snakemake
-so it runs in one command.
